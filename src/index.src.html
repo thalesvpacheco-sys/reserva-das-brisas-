@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reserva das Brisas | Lançamento em Senador Canedo</title>
+<meta name="description" content="Está chegando um lançamento que fará a diferença na vida de seus moradores: conforto, tranquilidade e qualidade de vida em um só lugar. Condomínio fechado da Basa Inc em Senador Canedo.">
+<meta name="theme-color" content="#0b2245">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Reserva das Brisas | Lançamento em Senador Canedo">
+<meta property="og:description" content="Conforto, tranquilidade e qualidade de vida em um só lugar.">
+<meta property="og:image" content="assets/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="logo/simbolo.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="assets/img/conjunto-diurno.webp" imagesrcset="assets/img/conjunto-diurno-960.webp 960w, assets/img/conjunto-diurno.webp 1920w" imagesizes="100vw" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Urbanist:wght@300;400;500;600;700;800&display=swap">
+<style>
+/* Reserva das Brisas · teaser. Direção "Vitral": formas e cores dos vidros da logo; fotos só no hero. */
+:root {
+  --navy: #163d70;
+  --navy-deep: #0b2245;
+  --blue: #2868b4;
+  --glass: #77a2d6;
+  --leaf: #aac9f8;
+  --leaf-soft: #acc8e9;
+  --sky: #e6f1fe;
+  --ink: #0e2343;
+  --ink-soft: #4a5f80;
+  --line: #dbe6f4;
+  --white: #ffffff;
+  --display: "Urbanist", "Segoe UI", system-ui, sans-serif;
+  --label: "Montserrat", "Segoe UI", system-ui, sans-serif;
+  --gutter-l: max(20px, env(safe-area-inset-left, 0px));
+  --gutter-r: max(20px, env(safe-area-inset-right, 0px));
+  --ease: cubic-bezier(.2, .8, .2, 1);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--white); color: var(--ink); font-family: var(--display); font-size: 17px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+img { display: block; max-width: 100%; height: auto; }
+[hidden] { display: none !important; }
+h1, h2, h3 { margin: 0; font-weight: 400; line-height: 1.08; text-wrap: balance; letter-spacing: -.01em; }
+p { margin: 0; }
+b, strong { font-weight: 800; }
+.wrap { width: 100%; max-width: 1240px; margin-inline: auto; padding-left: var(--gutter-l); padding-right: var(--gutter-r); }
+:focus-visible { outline: 3px solid var(--leaf); outline-offset: 3px; }
+.sec { padding-block: clamp(80px, 10vw, 140px); }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+.pre { font: 600 11.5px/1.4 var(--label); letter-spacing: .2em; text-transform: uppercase; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 12px; min-height: 54px; padding: 14px 26px; border: 0; border-radius: 999px; font: 700 13px/1.25 var(--label); letter-spacing: .06em; text-transform: uppercase; text-decoration: none; cursor: pointer; transition: transform .3s var(--ease), background .3s, color .3s, box-shadow .3s; text-align: left; }
+.btn svg { flex: none; width: 18px; height: 18px; transition: transform .3s var(--ease); }
+.btn:hover svg { transform: translateX(4px); }
+.btn:active { transform: scale(.98); }
+.btn:disabled { opacity: .6; cursor: progress; }
+.btn-navy { background: var(--navy); color: var(--white); box-shadow: 0 10px 30px -12px rgba(22,61,112,.7); }
+.btn-navy:hover { background: var(--blue); }
+.btn-leaf { background: var(--leaf); color: var(--ink); }
+.btn-leaf:hover { background: var(--white); }
+.icon { width: 26px; height: 26px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+.big-num { font-weight: 800; letter-spacing: -.045em; line-height: .85; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.big-num sup { font-size: .32em; letter-spacing: 0; vertical-align: top; position: relative; top: .1em; margin-left: .04em; }
+.legal { font-size: 12.5px; line-height: 1.5; opacity: .75; }
+
+/* logo vetorial */
+.rdb { display: block; width: 100%; height: auto; overflow: visible; }
+.rdb .rdb-n { fill: var(--navy); } .rdb .rdb-b { fill: var(--blue); } .rdb .rdb-l { fill: var(--glass); }
+.rdb .rdb-leaf-a { fill: var(--leaf); } .rdb .rdb-leaf-s { fill: var(--leaf-soft); }
+.rdb .rdb-w1 { fill: var(--navy); } .rdb .rdb-w2 { fill: var(--blue); }
+.rdb.neg .rdb-w1 { fill: var(--white); } .rdb.neg .rdb-w2 { fill: var(--leaf); }
+.rdb.mono .rdb-n, .rdb.mono .rdb-b, .rdb.mono .rdb-l { fill: var(--leaf); } .rdb.mono .rdb-leaf-a, .rdb.mono .rdb-leaf-s { fill: var(--navy-deep); }
+.rdb .rdb-p, .rdb .rdb-leaf { transform-box: fill-box; }
+.rdb .rdb-p { transform-origin: 50% 50%; }
+.rdb .rdb-leaf { transform-origin: 50% 100%; animation: sway 5.5s ease-in-out infinite; animation-delay: calc(var(--i) * -.6s); }
+.rdb.play .rdb-p { animation: glass .95s var(--ease) both; animation-delay: calc(var(--i) * 55ms); }
+.rdb.play .rdb-leaf { animation: leafIn 1.1s var(--ease) both, sway 5.5s ease-in-out infinite; animation-delay: calc(.85s + var(--i) * 90ms), calc(2s + var(--i) * -.6s); }
+.rdb.play .rdb-word { animation: rise 1s var(--ease) both; animation-delay: 1.05s; }
+.rdb.play .rdb-w2 { animation-delay: 1.3s; }
+@keyframes glass { from { opacity: 0; transform: scale(.55) rotate(-8deg); } }
+@keyframes leafIn { from { opacity: 0; transform: translate(-60%, -90%) rotate(-110deg) scale(.2); } }
+@keyframes sway { 0%, 100% { rotate: 0deg; } 50% { rotate: 9deg; } }
+@keyframes rise { from { opacity: 0; transform: translateY(22px); } }
+@keyframes phase { 0% { opacity: 0; } 6%, 33% { opacity: 1; } 40%, 100% { opacity: 0; } }
+.basa { display: block; width: 100%; height: auto; }
+.basa .t1 { fill: #6c6e72; } .basa .t2 { fill: var(--blue); }
+.basa.neg .t1 { fill: var(--white); } .basa.neg .t2 { fill: var(--leaf); }
+
+/* entradas ao rolar: só com JS ativo; o estado em repouso é sempre visível */
+.js .rv.play { animation: rise .9s var(--ease) both; animation-delay: calc(var(--d, 0) * 110ms); }
+
+/* ============================ HERO ============================ */
+.hero { position: relative; min-height: clamp(600px, 92svh, 900px); display: grid; overflow: hidden; isolation: isolate; color: var(--white); background: var(--navy-deep); }
+.slides { position: absolute; inset: 0; z-index: -2; }
+.slides img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.slides img + img { opacity: 0; }
+/* a primeira foto fica sempre por baixo; as outras entram em sequência (6s cada) */
+.js .slides img:first-child { animation: zoom 18s linear infinite alternate; }
+.js .slides img + img { animation: phase 18s infinite; }
+@keyframes zoom { from { transform: scale(1); } to { transform: scale(1.08); } }
+.hero::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(11,34,69,.92) 0%, rgba(11,34,69,.6) 42%, rgba(11,34,69,.05) 75%), linear-gradient(0deg, rgba(11,34,69,.6), transparent 30%); }
+.hero .wrap { display: grid; align-content: center; padding-block: calc(48px + env(safe-area-inset-top, 0px)) 88px; }
+.hero-copy { display: grid; gap: 26px; justify-items: start; max-width: 640px; }
+.hero .logo { width: clamp(120px, 12vw, 160px); }
+.hero .pre { color: var(--leaf); }
+.hero h1 { font-size: clamp(34px, 4.6vw, 64px); color: var(--white); }
+.hero h1 b { color: var(--leaf); }
+.hero .sub { font-size: clamp(18px, 1.6vw, 21px); color: rgba(230,241,254,.92); max-width: 34ch; }
+.dots { position: absolute; right: max(var(--gutter-r), calc((100% - 1240px) / 2 + 20px)); bottom: 32px; display: flex; gap: 6px; }
+.dots i { width: 36px; height: 3px; background: rgba(255,255,255,.3); border-radius: 3px; overflow: hidden; position: relative; }
+.dots i::after { content: ""; position: absolute; inset: 0; background: var(--leaf); transform-origin: left; transform: scaleX(0); animation: dot 18s linear infinite; animation-delay: var(--dd); }
+@keyframes dot { 0% { transform: scaleX(0); } 33.3% { transform: scaleX(1); } 33.4%, 100% { transform: scaleX(0); } }
+
+/* ============================ 15 ANOS ============================ */
+.hist { background: var(--white); overflow: hidden; }
+.hist .wrap { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 5vw, 80px); align-items: center; }
+.hist .num { font: 800 clamp(200px, 32vw, 460px)/.75 var(--display); letter-spacing: -.07em; color: transparent; -webkit-text-stroke: 2px var(--navy); }
+.js .hist .num.play { animation: fillnum 1.6s .4s var(--ease) forwards; }
+@keyframes fillnum { to { color: var(--blue); -webkit-text-stroke-color: var(--blue); } }
+.hist .txt { display: grid; gap: 28px; min-width: 0; }
+.statement { font-size: clamp(26px, 2.9vw, 40px); line-height: 1.24; font-weight: 300; color: var(--navy); text-wrap: pretty; }
+.statement b { font-weight: 800; }
+.sign { display: grid; grid-template-columns: auto 1fr; gap: 20px; align-items: center; padding: 22px 24px; background: var(--sky); border-radius: 2px 2px 2px 48px; }
+.sign > svg { width: 64px; }
+.sign p { font-size: 18px; color: var(--navy); line-height: 1.45; }
+.sign p b { font-weight: 700; }
+
+/* ============================ COMO SERÁ ============================ */
+.how { background: var(--sky); }
+.how h2 { font-size: clamp(32px, 3.8vw, 52px); color: var(--navy); font-weight: 300; }
+.how h2 b { font-weight: 800; }
+.tiles { display: grid; grid-template-columns: 1.3fr 1fr 1fr; gap: 10px; margin-top: 44px; }
+.tile { position: relative; padding: 28px; min-height: 230px; display: flex; flex-direction: column; justify-content: space-between; gap: 40px; overflow: hidden; border-radius: 2px; min-width: 0; transition: transform .5s var(--ease); }
+.tile:hover { transform: translateY(-4px); }
+.tile .icon { width: 36px; height: 36px; position: relative; }
+.tile p { font-size: clamp(21px, 1.9vw, 27px); font-weight: 600; line-height: 1.18; max-width: 15ch; position: relative; }
+.tile .art { position: absolute; pointer-events: none; }
+/* canto curvo menor + respiro à esquerda para o texto não encostar na curva */
+.tile.t1 { background: var(--navy); color: var(--white); grid-row: span 2; border-radius: 2px 2px 2px 80px; padding: 32px 32px 40px 36px; }
+.tile.t1 .art { right: -60px; top: -60px; width: 300px; opacity: .22; }
+.tile.t2 { background: var(--blue); color: var(--white); }
+.tile.t2 .art { right: 22px; top: 22px; display: flex; gap: 6px; }
+.tile.t2 .art i { width: 30px; height: 42px; border: 1.5px solid rgba(255,255,255,.5); border-radius: 2px; }
+.tile.t2 .art i:last-child { background: rgba(255,255,255,.2); }
+.tile.t3 { background: var(--glass); color: var(--ink); border-radius: 2px 80px 2px 2px; }
+.tile.t3 .art { right: -24px; top: 26px; width: 170px; opacity: .4; overflow: visible; }
+.waves path { fill: none; stroke: var(--navy); stroke-width: 2; stroke-linecap: round; animation: wave 4s ease-in-out infinite; }
+.waves path:nth-child(2) { animation-delay: -1.3s; } .waves path:nth-child(3) { animation-delay: -2.6s; }
+@keyframes wave { 50% { transform: translateX(-24px); } }
+.tile.t4 { background: var(--leaf); color: var(--ink); grid-column: span 2; }
+.tile.t4 .art { right: 28px; top: 50%; translate: 0 -50%; width: min(48%, 340px); overflow: visible; }
+.route .r-line { fill: none; stroke: var(--navy); stroke-width: 2.5; stroke-dasharray: 2 9; stroke-linecap: round; animation: dash 1.6s linear infinite; }
+@keyframes dash { to { stroke-dashoffset: -22; } }
+.how-cta { margin-top: 40px; }
+
+/* ============================ 14.000 m² ============================ */
+.m2 { background: radial-gradient(80% 120% at 85% 50%, rgba(40,104,180,.35), transparent 60%), var(--navy-deep); }
+.m2 .wrap { display: grid; grid-template-columns: 1.15fr .85fr; gap: clamp(40px, 6vw, 100px); align-items: center; }
+.m2 .txt { display: grid; gap: 26px; min-width: 0; }
+.m2 .big-num { font-size: clamp(76px, 11.5vw, 176px); color: var(--white); }
+.js .m2 .big-num { color: transparent; -webkit-text-stroke: 1.5px var(--leaf); }
+.js .m2 .big-num.play { animation: fillnum2 1.4s 1.6s var(--ease) forwards; }
+@keyframes fillnum2 { to { color: var(--white); -webkit-text-stroke-color: transparent; } }
+.m2 .big-num sup { color: var(--leaf); -webkit-text-stroke: 0; }
+.m2 .after { font-size: clamp(19px, 1.7vw, 23px); color: var(--white); max-width: 40ch; line-height: 1.45; }
+.m2 .after em { font-style: normal; font-weight: 700; color: var(--leaf); }
+.m2 .more { color: rgba(230,241,254,.75); max-width: 52ch; }
+.m2 .logo-big { justify-self: end; width: min(100%, 440px); }
+
+/* ============================ ANTECIPE-SE ============================ */
+.final { background: var(--sky); position: relative; overflow: hidden; isolation: isolate; }
+.drift { position: absolute; inset: 0; z-index: -1; pointer-events: none; }
+.drift svg { position: absolute; left: -60px; width: 34px; fill: var(--glass); opacity: .55; animation: drift 16s linear infinite; }
+.drift svg:nth-child(1) { top: 12%; }
+.drift svg:nth-child(2) { top: 44%; animation-delay: -4s; width: 24px; fill: var(--blue); }
+.drift svg:nth-child(3) { top: 72%; animation-delay: -9s; width: 42px; }
+.drift svg:nth-child(4) { top: 26%; animation-delay: -12s; width: 20px; fill: var(--navy); opacity: .3; }
+@keyframes drift { from { transform: translate(0, 0) rotate(0); } 50% { transform: translate(55vw, 40px) rotate(160deg); } to { transform: translate(110vw, -20px) rotate(340deg); } }
+.final .top { display: grid; grid-template-columns: auto 1fr; gap: clamp(24px, 4vw, 56px); align-items: end; }
+.final .stamp { width: clamp(96px, 12vw, 160px); }
+.final h2 { font-size: clamp(42px, 6vw, 88px); color: var(--navy); font-weight: 300; letter-spacing: -.03em; }
+.final h2 b { color: var(--blue); font-weight: 800; }
+.final .para { margin-top: 32px; padding-top: 28px; border-top: 1.5px solid var(--navy); color: var(--navy); font-size: 19px; }
+.formbox { margin-top: 32px; background: var(--white); padding: clamp(20px, 3vw, 32px); border-radius: 2px 2px 2px 60px; box-shadow: 0 30px 60px -40px rgba(11,34,69,.45); }
+
+/* formulário */
+.lead { display: grid; gap: 16px; }
+.lead-row { display: grid; gap: 14px; grid-template-columns: 1.1fr 1.1fr 1fr; }
+.field { display: grid; gap: 6px; min-width: 0; align-content: start; }
+.field label { font: 600 11px/1.2 var(--label); letter-spacing: .14em; text-transform: uppercase; color: var(--ink); }
+.field input { width: 100%; min-height: 52px; padding: 12px 16px; border-radius: 12px; border: 1.5px solid #c7d8ee; background: var(--white); color: var(--ink); font: 500 16px/1.3 var(--display); transition: border-color .2s; }
+.field input::placeholder { color: #8396b3; }
+.field input:focus { outline: none; border-color: var(--navy); }
+.field input[aria-invalid="true"] { border-color: #b3261e; }
+.err { font-size: 12.5px; color: #b3261e; }
+.err:empty { display: none; }
+.lead-foot { display: flex; gap: 16px 24px; align-items: end; justify-content: space-between; flex-wrap: wrap; }
+.lead fieldset { border: 0; padding: 0; margin: 0; }
+.pills { display: flex; gap: 8px; flex-wrap: wrap; }
+.pills label { position: relative; cursor: pointer; }
+.pills input { position: absolute; opacity: 0; inset: 0; cursor: pointer; margin: 0; }
+.pills span { display: inline-flex; align-items: center; padding: 12px 20px; border-radius: 999px; border: 1.5px solid #c7d8ee; font: 600 14px/1 var(--display); transition: all .2s; }
+.pills input:checked + span { background: var(--navy); border-color: var(--navy); color: var(--white); }
+.pills input:focus-visible + span { outline: 3px solid var(--navy); outline-offset: 2px; }
+.lead .btn[type="submit"] { min-width: min(100%, 440px); justify-content: space-between; }
+.hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.form-msg { font-size: 14px; color: #b3261e; }
+.form-msg:empty { display: none; }
+.lead-ok { display: flex; gap: 18px; align-items: center; padding: 8px 0; }
+.lead-ok h3 { font-size: clamp(24px, 3vw, 32px); font-weight: 700; color: var(--navy); }
+.lead-ok .check { width: 54px; height: 54px; border-radius: 50%; display: grid; place-items: center; background: var(--navy); color: var(--white); flex: none; }
+.lead-ok .check svg { width: 26px; height: 26px; stroke-dasharray: 30; stroke-dashoffset: 30; animation: draw .7s .2s var(--ease) forwards; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+
+/* ============================ FOOTER ============================ */
+.foot { background: var(--navy); color: var(--sky); padding-block: 28px calc(28px + env(safe-area-inset-bottom, 0px)); }
+.foot .wrap { display: grid; grid-template-columns: auto 1fr auto; gap: 20px 40px; align-items: center; }
+.foot .lockup { width: 180px; }
+.foot .basa { width: 110px; }
+
+/* ============================ RESPONSIVO ============================ */
+@media (max-width: 980px) {
+  .hist .wrap, .m2 .wrap { grid-template-columns: 1fr; }
+  .hist .num { font-size: clamp(160px, 42vw, 300px); }
+  .m2 .logo-big { justify-self: start; width: min(70%, 320px); }
+  .tiles { grid-template-columns: 1fr 1fr; }
+  .tile.t1 { grid-row: auto; grid-column: span 2; min-height: 260px; }
+  .lead-row { grid-template-columns: 1fr 1fr; }
+  .lead-row .field:first-child { grid-column: 1 / -1; }
+  .foot .wrap { grid-template-columns: auto 1fr; }
+}
+@media (max-width: 620px) {
+  body { font-size: 16px; }
+  .hero::after { background: linear-gradient(0deg, rgba(11,34,69,.95) 0%, rgba(11,34,69,.75) 55%, rgba(11,34,69,.35) 100%); }
+  .hero .wrap { align-content: end; }
+  .hero .btn, .how-cta .btn { width: 100%; justify-content: space-between; }
+  .dots { left: var(--gutter-l); right: auto; bottom: 24px; }
+  .tiles { grid-template-columns: 1fr; }
+  .tile.t1, .tile.t4 { grid-column: auto; }
+  .tile.t1 { border-radius: 2px 2px 2px 60px; }
+  .tile.t4 { padding-bottom: 150px; }
+  .tile.t4 .art { top: auto; bottom: 16px; translate: none; right: 16px; width: 72%; }
+  .final .top { grid-template-columns: 1fr; }
+  .lead-row { grid-template-columns: 1fr; }
+  .lead .btn[type="submit"] { width: 100%; min-width: 0; }
+  .foot .wrap { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+  .slides img + img { opacity: 0 !important; }
+  .js .hist .num, .js .m2 .big-num { color: var(--blue); -webkit-text-stroke: 0; }
+  .js .m2 .big-num { color: var(--white); }
+}
+</style>
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<main id="topo">
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="titulo">
+    <div class="slides" aria-hidden="true">
+      <img src="assets/img/conjunto-diurno.webp" srcset="assets/img/conjunto-diurno-960.webp 960w, assets/img/conjunto-diurno.webp 1920w" sizes="100vw" alt="" fetchpriority="high" decoding="async" width="1920" height="1072">
+      <img src="assets/img/rua-com-fachadas.webp" srcset="assets/img/rua-com-fachadas-960.webp 960w, assets/img/rua-com-fachadas.webp 1920w" sizes="100vw" alt="" loading="lazy" decoding="async" width="1920" height="1072" style="animation-delay:6s">
+      <img src="assets/img/portaria.webp" srcset="assets/img/portaria-960.webp 960w, assets/img/portaria.webp 1920w" sizes="100vw" alt="" loading="lazy" decoding="async" width="1920" height="1072" style="animation-delay:12s">
+    </div>
+    <div class="wrap">
+      <div class="hero-copy">
+        <div class="logo" data-play>{{logo:full:neg}}</div>
+        <span class="pre rv">Pré-lançamento · Senador Canedo, GO</span>
+        <h1 class="rv" id="titulo" style="--d:1">Está chegando um lançamento que fará a <b>diferença</b> na vida de seus moradores:</h1>
+        <p class="sub rv" style="--d:2">Conforto, tranquilidade e qualidade de vida em um só lugar.</p>
+        <a class="btn btn-leaf rv" style="--d:3" href="#cadastro">Quero saber os detalhes do lançamento <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </div>
+    <div class="dots" aria-hidden="true"><i style="--dd:0s"></i><i style="--dd:6s"></i><i style="--dd:12s"></i></div>
+  </section>
+
+  <!-- 15 ANOS -->
+  <section class="sec hist" aria-label="15 anos de história em Goiás">
+    <div class="wrap">
+      <div class="num" data-reveal aria-hidden="true">15</div>
+      <div class="txt">
+        <p class="statement rv"><b>15 anos de história em Goiás</b>, transformados em um empreendimento que reúne toda a expertise da Basa Inc.</p>
+        <div class="sign rv" style="--d:1">{{logo:mark}}<p>Este será o <b>Reserva das Brisas</b>, condomínio fechado destinado a poucas famílias.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO SERÁ -->
+  <section class="sec how" aria-labelledby="como-sera">
+    <div class="wrap">
+      <h2 class="rv" id="como-sera">Como será o <b>Reserva das Brisas</b>:</h2>
+      <ul class="tiles" role="list" style="list-style:none;padding:0">
+        <li class="tile t1 rv"><div class="art" aria-hidden="true">{{logo:mark:mono}}</div><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg><p>Condomínio fechado em Senador Canedo</p></li>
+        <li class="tile t2 rv" style="--d:1"><div class="art" aria-hidden="true"><i></i><i></i><i></i></div><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M8 20v-4h8v4M8 16v-2h3v2"/></svg><p>Casas 3 quartos com 1 suíte</p></li>
+        <li class="tile t3 rv" style="--d:2"><svg class="art waves" viewBox="0 0 220 90" aria-hidden="true"><path d="M0 20c25 0 25-12 50-12s25 12 50 12 25-12 50-12 25 12 50 12 25-12 50-12"/><path d="M0 50c25 0 25-12 50-12s25 12 50 12 25-12 50-12 25 12 50 12 25-12 50-12"/><path d="M0 80c25 0 25-12 50-12s25 12 50 12 25-12 50-12 25 12 50 12 25-12 50-12"/></svg><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17c2 0 2-1.5 4.5-1.5S10 17 12 17s2-1.5 4.5-1.5S19 17 21 17"/><path d="M3 21c2 0 2-1.5 4.5-1.5S10 21 12 21s2-1.5 4.5-1.5S19 21 21 21"/><circle cx="16" cy="7" r="3"/></svg><p>Espaço para lazer e convivência</p></li>
+        <li class="tile t4 rv" style="--d:3"><svg class="art route" viewBox="0 0 360 150" aria-hidden="true"><path class="r-line" d="M24 118C90 116 110 50 180 54S300 36 334 30"/><circle cx="24" cy="118" r="7" fill="#163d70"/><circle cx="334" cy="30" r="9" fill="#163d70"/><circle cx="334" cy="30" r="17" fill="none" stroke="#163d70" stroke-opacity=".3"/></svg><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><p>Apenas 30 min. de Goiânia</p></li>
+      </ul>
+      <div class="how-cta"><a class="btn btn-navy" href="#cadastro">Seja o primeiro a receber novidades <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+    </div>
+  </section>
+
+  <!-- 14.000 m² -->
+  <section class="sec m2" aria-label="Basa Inc: 14.000 m² de áreas construídas">
+    <div class="wrap">
+      <div class="txt">
+        <div class="big-num rv" data-count="14000">14.000<sup>m²</sup></div>
+        <p class="after rv" style="--d:1">de áreas construídas que representam <em>não apenas obras</em>, mas a consolidação de uma trajetória marcada por planejamento, credibilidade e desenvolvimento urbano.</p>
+        <p class="more rv" style="--d:2">Cada metro construído pela Basa Inc carrega o compromisso com a excelência construtiva, valorização imobiliária e visão de longo prazo, contribuindo diretamente para a transformação de Goiás e do Distrito Federal.</p>
+      </div>
+      <div class="logo-big rv" style="--d:1">{{basa:neg}}</div>
+    </div>
+  </section>
+
+  <!-- ANTECIPE-SE -->
+  <section class="sec final" id="cadastro" aria-labelledby="antecipe">
+    <div class="drift" aria-hidden="true">
+      <svg viewBox="-20 -34 40 68"><path d="M0 -32C20 -16 20 16 0 32C-20 16 -20 -16 0 -32Z"/></svg>
+      <svg viewBox="-20 -34 40 68"><path d="M0 -32C20 -16 20 16 0 32C-20 16 -20 -16 0 -32Z"/></svg>
+      <svg viewBox="-20 -34 40 68"><path d="M0 -32C20 -16 20 16 0 32C-20 16 -20 -16 0 -32Z"/></svg>
+      <svg viewBox="-20 -34 40 68"><path d="M0 -32C20 -16 20 16 0 32C-20 16 -20 -16 0 -32Z"/></svg>
+    </div>
+    <div class="wrap">
+      <div class="top">
+        <div class="stamp">{{logo:mark}}</div>
+        <h2 id="antecipe"><b>Antecipe-se</b><br>ao lançamento!</h2>
+      </div>
+      <p class="para">O início das vendas está chegando e são poucas unidades, tenha todas as informações para fazer o melhor negócio já na abertura das vendas!</p>
+      <div class="formbox">
+        <form class="lead" id="lead-form" novalidate>
+          <div class="lead-row">
+            <div class="field"><label for="f-nome">Nome</label><input id="f-nome" name="nome" autocomplete="name" required><span class="err" id="f-nome-err"></span></div>
+            <div class="field"><label for="f-email">E-mail</label><input id="f-email" name="email" type="email" autocomplete="email" required><span class="err" id="f-email-err"></span></div>
+            <div class="field"><label for="f-whats">WhatsApp</label><input id="f-whats" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" placeholder="(62) 90000-0000" required><span class="err" id="f-whats-err"></span></div>
+          </div>
+          <div class="lead-foot">
+            <fieldset>
+              <legend class="sr-only">Interesse</legend>
+              <div class="pills">
+                <label><input type="radio" name="interesse" id="f-morar" value="morar" checked><span>Morar</span></label>
+                <label><input type="radio" name="interesse" id="f-investir" value="investir"><span>Investir</span></label>
+              </div>
+            </fieldset>
+            <button class="btn btn-navy" type="submit">Quero aproveitar essa oportunidade única! <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          </div>
+          <div class="hp" aria-hidden="true"><label for="f-site">Não preencha</label><input id="f-site" name="website" tabindex="-1" autocomplete="off"></div>
+          <p class="form-msg" role="alert"></p>
+        </form>
+        <div class="lead-ok" id="lead-ok" hidden aria-live="polite">
+          <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
+          <h3>Recebemos seu contato<span data-name></span>!</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="lockup">{{logo:lockup:neg}}</div>
+    <p class="legal">Imagens meramente ilustrativas. Empreendimento em fase de pré-lançamento.</p>
+    {{basa:neg}}
+  </div>
+</footer>
+
+<script>
+(() => {
+  // Destino dos cadastros: URL que recebe POST em JSON (webhook do CRM, RD Station, Make, etc.).
+  // Vazio = só mostra a confirmação (útil em homologação).
+  const FORM_ENDPOINT = '';
+
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // Animações de entrada e contador do 14.000 m²
+  const countUp = el => {
+    const end = +el.dataset.count, sup = el.querySelector('sup').outerHTML, t0 = performance.now(), dur = 1800;
+    const step = t => {
+      const p = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - p, 4);
+      el.innerHTML = Math.round(end * e).toLocaleString('pt-BR') + sup;
+      if (p < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  };
+  $$('[data-play] > svg').forEach(svg => { svg.dataset.reveal = ''; });
+  const io = new IntersectionObserver(entries => entries.forEach(en => {
+    if (!en.isIntersecting) return;
+    const el = en.target;
+    el.classList.add('play');
+    if (el.dataset.count && !reduce) countUp(el);
+    io.unobserve(el);
+  }), { threshold: .15 });
+  $$('.rv, [data-reveal]').forEach(el => io.observe(el));
+
+  // Formulário
+  const form = $('#lead-form');
+  const ok = $('#lead-ok');
+  const msg = $('.form-msg', form);
+  const tel = form.whatsapp;
+  const maskPhone = v => {
+    const d = v.replace(/\D/g, '').slice(0, 11);
+    if (d.length <= 2) return d.length ? `(${d}` : '';
+    if (d.length <= 6) return `(${d.slice(0, 2)}) ${d.slice(2)}`;
+    if (d.length <= 10) return `(${d.slice(0, 2)}) ${d.slice(2, 6)}-${d.slice(6)}`;
+    return `(${d.slice(0, 2)}) ${d.slice(2, 7)}-${d.slice(7)}`;
+  };
+  tel.addEventListener('input', () => { tel.value = maskPhone(tel.value); });
+  const rules = {
+    nome: v => v.trim().length >= 3 ? '' : 'Informe seu nome.',
+    email: v => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v.trim()) ? '' : 'Informe um e-mail válido.',
+    whatsapp: v => v.replace(/\D/g, '').length >= 10 ? '' : 'Informe o WhatsApp com DDD.',
+  };
+  const validate = () => {
+    let first = null;
+    ['nome', 'email', 'whatsapp'].forEach(n => {
+      const input = form[n], m = rules[n](input.value);
+      input.setAttribute('aria-invalid', m ? 'true' : 'false');
+      input.setAttribute('aria-describedby', input.id + '-err');
+      $('#' + input.id + '-err').textContent = m;
+      if (m && !first) first = input;
+    });
+    if (first) first.focus();
+    return !first;
+  };
+  // UTMs da URL seguem junto com o cadastro
+  const utm = Object.fromEntries([...new URLSearchParams(location.search)].filter(([k]) => k.startsWith('utm_') || k === 'gclid' || k === 'fbclid'));
+
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+    msg.textContent = '';
+    if (form.website.value) return;
+    if (!validate()) return;
+    const data = {
+      nome: form.nome.value.trim(),
+      email: form.email.value.trim(),
+      whatsapp: tel.value,
+      interesse: form.interesse.value,
+      origem: 'teaser-reserva-das-brisas',
+      pagina: location.href,
+      ...utm,
+    };
+    const btn = $('button[type="submit"]', form);
+    btn.disabled = true;
+    try {
+      if (FORM_ENDPOINT) {
+        const res = await fetch(FORM_ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) });
+        if (!res.ok) throw new Error(res.status);
+      }
+      window.dataLayer?.push({ event: 'lead_reserva_das_brisas', interesse: data.interesse });
+      $('[data-name]', ok).textContent = `, ${data.nome.split(' ')[0]}`;
+      form.hidden = true; ok.hidden = false;
+    } catch (err) {
+      msg.textContent = 'Não foi possível enviar agora. Verifique sua conexão e tente novamente.';
+      btn.disabled = false;
+    }
+  });
+})();
+</script>
+</body>
+</html>

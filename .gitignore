@@ -1,0 +1,19 @@
+# Material bruto do cliente (não vai para o repositório público)
+IMAGENS/
+*.pdf
+LOGO DO RESERVA EM BAIXA QUALIDADE.jpeg
+reserva das brisas.png
+
+# Só as imagens usadas pela página
+assets/img/*
+!assets/img/conjunto-diurno.webp
+!assets/img/conjunto-diurno-960.webp
+!assets/img/rua-com-fachadas.webp
+!assets/img/rua-com-fachadas-960.webp
+!assets/img/portaria.webp
+!assets/img/portaria-960.webp
+!assets/img/og.jpg
+
+__pycache__/
+.DS_Store
+Thumbs.db
