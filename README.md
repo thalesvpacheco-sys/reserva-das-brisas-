@@ -1,7 +1,8 @@
 # Reserva das Brisas · Teaser
 
 Landing page de pré-lançamento do Reserva das Brisas (Basa Inc), em Senador Canedo, GO.
-Página estática: HTML, CSS e JS sem dependências, pronta para qualquer hospedagem.
+Página estática: HTML, CSS e JS sem dependências.
+No ar em https://reservadasbrisas.grifo.agency (Hostinger, deploy automático a partir da branch `main`).
 
 ## Estrutura
 
@@ -33,4 +34,3 @@ Parâmetros `utm_*`, `gclid` e `fbclid` da URL seguem junto, e o evento `lead_re
 
 - Vetor oficial da logo Basa Inc (a atual é uma aproximação).
 - Endpoint do CRM para o formulário.
-- URL definitiva para completar o `og:image` com endereço absoluto.
