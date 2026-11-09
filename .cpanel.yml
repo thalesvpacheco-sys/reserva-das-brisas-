@@ -1,0 +1,11 @@
+---
+# Deploy no cPanel da HostGator (Git Version Control > Deploy HEAD Commit).
+# Copia só o que o site usa para a pasta do domínio.
+# Ajuste DEPLOYPATH se a pasta do domínio no cPanel for outra.
+deployment:
+  tasks:
+    - export DEPLOYPATH=$HOME/public_html/reservadasbrisas.com.br/
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp deploy/.htaccess $DEPLOYPATH
+    - /bin/cp -R assets logo $DEPLOYPATH
