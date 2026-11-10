@@ -28,7 +28,7 @@ assets/img/           imagens do hero (WebP 1920 px e 960 px para mobile) e og.j
 
 Via cPanel > Git Version Control, clonando este repositório (branch `main`).
 O `.cpanel.yml` copia `index.html`, `assets/`, `logo/` e `deploy/.htaccess` (HTTPS e sem `www`)
-para `~/public_html/reservadasbrisas.com.br/`. Para publicar: `git push` na `main`, depois, no cPanel,
+para `~/reservadasbrisas.com.br/` (raiz do documento do domínio no cPanel). Para publicar: `git push` na `main`, depois, no cPanel,
 **Update from Remote** e **Deploy HEAD Commit**. O `index.html` já vai gerado; não há build no servidor.
 
 ## Formulário

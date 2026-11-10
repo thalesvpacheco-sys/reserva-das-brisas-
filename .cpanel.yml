@@ -4,7 +4,7 @@
 # Ajuste DEPLOYPATH se a pasta do domínio no cPanel for outra.
 deployment:
   tasks:
-    - export DEPLOYPATH=$HOME/public_html/reservadasbrisas.com.br/
+    - export DEPLOYPATH=$HOME/reservadasbrisas.com.br/
     - /bin/mkdir -p $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp deploy/.htaccess $DEPLOYPATH
